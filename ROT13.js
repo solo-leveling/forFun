@@ -2,8 +2,6 @@ function rot13(str) {
   input = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
   output = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
   temp = "";
-  answer = "";
-  result = "";
   for (let i = 0; i < str.length; i++) {
     if (!input.includes(str[i])) {
       temp += str[i];
