@@ -2,8 +2,6 @@ function rot13(str) {
   input = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
   output = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
   temp = "";
-  answer = "";
-  result = "";
   for (let i = 0; i < str.length; i++) {
     if (!input.includes(str[i])) {
       temp += str[i];
@@ -18,4 +16,4 @@ function rot13(str) {
   console.log(temp);
 }
 
-rot13("This is my first ROT13 excercise!");
+rot13("test");
